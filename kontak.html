@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - PlerKuda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pler Kuda Anti Gedor</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <h2>Kontak Kami</h2>
+        <p>Kami terbuka untuk mendengar ide, saran, atau pertanyaan Anda. Jika Anda ingin bergabung dengan kami atau memiliki pertanyaan seputar layanan kami, silakan isi formulir di bawah ini. Tim kami akan segera menghubungi Anda!</p>
+        <p>&nbsp;</p>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Hubungi Kami</h3>
+                <p>Email: plerkuda@gmail.com</p>
+                <p>Telepon: +62 123 456 789</p>
+                <p>Alamat: Jl. Jateng No. 123, Cilacap, Indonesia</p>
+                <p>&nbsp;</p>
+                <h3>Ikuti Kami di Sosial Media</h3>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/plerkuda.co.id" class="social-link">Instagram  </a>
+                    <a href="https://domain.com/" class="social-link">Facebook</a>
+                </div>
+            </div>
+            <p>&nbsp;</p>
+            <form action="https://formspree.io/f/mwperkya" method="POST" id="contact-form">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" placeholder="Nama" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="pesan" placeholder="Pesan" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+                <div id="form-message" style="margin-top: 10px;"></div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PlerKuda Copyright</p>
+    </footer>
+</body>
+</html>
